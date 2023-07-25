@@ -13,15 +13,15 @@ function ClientInsertForm({action}) {
         <br/>
         <div>
             <div className="form-group">
-                <input type="text" className="form-control" placeholder="Enter the student Name" value={name} onChange={(e) => setName(e.target.value)} required />
+                <input type="text" className="form-control" placeholder="Enter the client Name" value={name} onChange={(e) => setName(e.target.value)} required />
             </div>
 
             <div className="form-group">
-                <input type="email" className="form-control mt-2" placeholder="Enter the student Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                <input type="email" className="form-control mt-2" placeholder="Enter the client Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
             </div>
 
             <div className="form-group">
-                <input type="number" className="form-control mt-2" placeholder="Enter the student Age" value={age} onChange={(e) => setAge(e.target.value)} required />
+                <input type="number" className="form-control mt-2" placeholder="Enter the client Age" value={age} onChange={(e) => setAge(e.target.value)} required />
             </div>
 
             <div className="form-group">
